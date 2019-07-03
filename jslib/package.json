@@ -1,0 +1,14 @@
+{
+    "name": "geowe-ui-js",
+    "version": "1.0.0",
+    "description": "Librería Javascript para desarrollar componentes de interfaz de usuario en la web",
+    "keywords": [],
+    "author": "jmmluna, atamunoz",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "@fortawesome/fontawesome-free": "^5.9.0",
+        "jquery": "^3.3.1",
+        "tabulator-tables": "^4.2.7"
+    }
+}

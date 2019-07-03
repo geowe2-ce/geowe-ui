@@ -1,0 +1,291 @@
+//@import 'node_modules/bootstrap/scss/bootstrap';
+//@import '~bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+.gw-btn {
+    @extend .btn,
+    .btn-secondary;
+    border-radius: 0px;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.gw-btn-active {
+    @extend .active;
+}
+
+.gw-toolbar {
+    @extend .btn-group;
+}
+
+.gw-btn-icon {
+    margin-right: .25rem !important;
+}
+
+.gw-dialog {
+    @extend .card;
+}
+
+.gw-modal {
+    @extend .modal,
+    .fade;
+}
+
+.gw-dialog-bound {
+    @extend .modal-dialog,
+    .modal-dialog-centered;
+}
+
+.gw-dialog-container {
+    @extend .modal-content;
+}
+
+.gw-dialog-header {
+    @extend .modal-header;
+}
+
+.gw-dialog-title {
+    @extend .modal-title;
+}
+
+.gw-dialog-content {
+    @extend .modal-body;
+}
+
+.gw-dialog-footer {
+    @extend .modal-footer;
+}
+
+.gw-dialog-close {
+    @extend .close;
+}
+
+.gw-loading-container {
+    @extend .d-flex,
+    .align-items-center;
+    height: 70px;
+}
+
+//spinner
+.gw-loading-spinner {
+    @extend .ml-auto;
+    color: #1052e0;
+    font-size: 50px;
+    text-indent: -9999em;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin: 32px;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+    animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+}
+
+@-webkit-keyframes load6 {
+    0% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+}
+
+@keyframes load6 {
+    0% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+}
+
+@-webkit-keyframes round {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes round {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+//--spinner
+.gw-nav {
+    @extend .navbar,
+    .navbar-dark,
+    .bg-dark,
+    .navbar-expand-lg,
+    .navbar-light,
+    .bg-light;
+}
+
+.gw-nav-control {
+    @extend .navbar-toggler;
+}
+
+.gw-nav-control-icon {
+    @extend .navbar-toggler-icon;
+}
+
+.gw-nav-container {
+    @extend .collapse,
+    .navbar-collapse;
+}
+
+.gw-nav-brand {
+    @extend .navbar-brand;
+}
+
+.gw-nav-items {
+    @extend .navbar-nav,
+    .mr-auto;
+}
+
+.gw-nav-item {
+    @extend .nav-item;
+}
+
+.gw-nav-link {
+    @extend .nav-link;
+}
+
+.gw-nav-link-active {
+    @extend .gw-nav-link,
+    .active;
+}
+
+.gw-nav-btn {
+    @extend .gw-btn;
+    color: white;
+    background-color: transparent;
+    border: none;
+    @include hover {
+        color: orange;
+        background-color: transparent;
+    }
+}
+
+.gw-nav-btn-active {
+    @extend .gw-nav-btn;
+    color: green;
+}
+
+.gw-tab-content {
+    @extend .tab-pane,
+    .fade;
+}
+
+.gw-tab-content-active {
+    @extend .gw-tab-content,
+    .show,
+    .active;
+}
+
+//////////////////////////////////////Side Nav
+.gw-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(4, 32, 73);
+    overflow-x: hidden;
+    transition: 0.5s;
+    // padding-top: 60px;
+}
+
+.gw-sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.gw-sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.gw-sidenav .gw-closebtn {
+    @extend .close;
+    // font-size: 36px;
+    color: #f1f1f1;
+}
+
+.gw-sidenav .gw-title {
+    @extend .alert,
+    .alert-primary;
+    color: #f1f1f1;
+    background-color: rgb(4, 32, 73);
+    border: none;
+    border-radius: 0px;
+    // top: 0;
+    // left: 5px;
+    font-size: 18px;
+    // margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .gw-sidenav {
+        padding-top: 15px;
+    }
+    .gw-sidenav a {
+        font-size: 18px;
+    }
+}
+
+//////////////////////////fin Side Nav
+.gw-list {
+    @extend .list-group;
+}
+
+.gw-list-item {
+    @extend .list-group-item,
+    .list-group-item-action;
+}

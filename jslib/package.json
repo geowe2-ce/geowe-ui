@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "Librería Javascript de componentes para el desarrollo de interfaz de usuario en la web.",
     "keywords": ["js", "ui", "components", "lib", "bootstrap"],
-     "author": {
+    "author": {
         "name": "José María",
         "email": "jose@geowe.org"
     },
@@ -18,7 +18,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/geowe2-ce/geowe-ui.git"
+    },
+    "bugs": {
+        "url": "https://github.com/geowe2-ce/geowe-ui/issues"
     },
     "license": "MIT",
     "dependencies": {

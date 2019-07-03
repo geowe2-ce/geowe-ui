@@ -2,16 +2,13 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "declaration": true,    
-    //"outDir": "../geowe-ui-lib/api",
-    "outDir": "./jslib/geowe-ui-lib/api",
+    "declaration": true,        
+    "outDir": "./jslib/geowe-ui-js/api",
     "rootDir": "./src/api",
     "sourceMap": false
-  },
-  
+  },  
   "include": [    
-    "src/api/**/*"
-    
+    "src/api/**/*"    
   ],
   "exclude": [
     "node_modules"

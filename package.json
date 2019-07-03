@@ -1,6 +1,6 @@
 {
     "name": "geowe-ui",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Librería Typescript de componentes para el desarrollo de interfaz de usuario en la web.",
     "main": "index.ts",
     "scripts": {
@@ -28,15 +28,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/geowe2-ce/geowe-ui.git"
     },
-
     "bugs": {
-        "url": ""
+        "url": "https://github.com/geowe2-ce/geowe-ui/issues"
     },
-    "homepage": "",
-
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "@types/bootstrap": "^4.3.0",
         "@types/jquery": "^3.3.29",

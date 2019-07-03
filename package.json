@@ -7,6 +7,7 @@
         "start": "parcel index.html NODE_ENV=development --no-cache",
         "build": "tsc",
         "doc": "typedoc --out docs ./src/api",
+        "copy:readme": "copyfiles ./README.md ./jslib/geowe-ui-js",
         "copy:package": "copyfiles -u 1 ./jslib/package.json ./jslib/geowe-ui-js",
         "copy:html": "copyfiles -u 1 ./src/**/*.html ./jslib/geowe-ui-js",
         "build:css": "sass --style=compressed --no-source-map ./src/style/ui-lib.scss:./jslib/geowe-ui-js/style/ui-lib.css",

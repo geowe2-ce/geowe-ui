@@ -1,10 +1,26 @@
 {
     "name": "geowe-ui-js",
     "version": "1.0.0",
-    "description": "Librería Javascript para desarrollar componentes de interfaz de usuario en la web",
-    "keywords": [],
-    "author": "jmmluna, atamunoz",
-    "license": "ISC",
+    "description": "Librería Javascript de componentes para el desarrollo de interfaz de usuario en la web.",
+    "keywords": ["js", "ui", "components", "lib", "bootstrap"],
+     "author": {
+        "name": "José María",
+        "email": "jose@geowe.org"
+    },
+    "contributors": [{
+            "name": "Atanasio Muñoz",
+            "email": "ata@geowe.org"
+        },
+        {
+            "name": "Rafael López",
+            "email": "rafa@geowe.org"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT",
     "dependencies": {
         "bootstrap": "^4.3.1",
         "@fortawesome/fontawesome-free": "^5.9.0",

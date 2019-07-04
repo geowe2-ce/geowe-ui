@@ -1,10 +1,9 @@
 import { SimpleButton } from './src/api/button/SimpleButton';
 import { ToggleButton } from './src/api/button/ToggleButton';
 import { ToolBar } from './src/api/toolbar/ToolBar';
-import { ToggleButtonGroup } from './src/api/button/ToggleButtonGroup';
 import {NavBar} from './src/api/navbar/NavBar';
 
-import './src/style/ui-lib.scss'
+import './src/style/main.scss'
 
 const toolbar: ToolBar = new ToolBar("toolBarId");
 

@@ -24,8 +24,28 @@ Para generar la distribución en formato Javascript desde el actual proyecto Typ
 
     npm run build && npm run build:css && npm run copy:html && npm run copy:package && npm run copy:readme && npm run pack-ui-lib
 
-Se obtendrán los ficheros fuente en Javascript dentro de la carpeta **jslib/geowe-ui-js** y en el raíz del proyecto se habrá generado el fichero **geowe-ui-js-X.Y.Z.tgz**.    
-  
+Se obtendrán los ficheros fuente en Javascript dentro de la carpeta **jslib/geowe-ui-js** y en el raíz del proyecto se habrá generado el fichero **geowe-ui-js-X.Y.Z.tgz**.  
+
+## Ejemplo básico de geowe-ui usando Javascript
+
+```javascript
+import { SimpleButton } from 'geowe-ui-js/api/button/SimpleButton';
+import { ToggleButton } from 'geowe-ui-js/api/button/ToggleButton';
+import 'geowe-ui-lib/style/ui-lib.css'
+
+//Integrado para usar directamente fuente de iconos (https://fontawesome.com/start)
+const zoomExtentButton = new SimpleButton("zoomExtentId", "Zoom to extent", 'fas fa-globe-americas', execute);
+//ToggleButton sin etiqueta
+const selectToggletButton = new ToggleButton("selectId", "", 'fas fa-mouse-pointer', execute);
+
+zoomExtentButton.show();
+selectToggletButton.show();
+
+function execute() {
+    alert("executed!!");
+}
+```
+
 ## Contributors
 
 * Atanasio Muñoz <ata@geowe.org>

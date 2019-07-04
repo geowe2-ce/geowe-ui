@@ -1,4 +1,4 @@
-![MIT licensed(https://img.shields.io/badge/license-MIT-blue.svg)]
+[![NPM version](https://img.shields.io/npm/v/github-label-sync.svg)](https://www.npmjs.com/package/github-label-sync)  [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 # geowe-ui
 

@@ -1,5 +1,3 @@
-[![NPM version](https://img.shields.io/npm/v/github-label-sync.svg)](https://www.npmjs.com/package/github-label-sync)  [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
-
 # geowe-ui
 
 Librería Typescript Open Source de componentes para el desarrollo de interfaz de usuario en la web.
@@ -16,7 +14,7 @@ Para generar la distribución en formato Javascript desde el actual proyecto Typ
 
     npm run build && npm run build:css && npm run copy:html && npm run copy:package && npm run copy:readme && npm run pack-ui-lib
 
-Se obtendrán los ficheros fuente en Javascript dentro de la carpeta jslib/geowe-ui-js y en el raíz del proyecto se habrá generado el fichero geowe-ui-js-X.Y.Z.tgz.    
+Se obtendrán los ficheros fuente en Javascript dentro de la carpeta **jslib/geowe-ui-js** y en el raíz del proyecto se habrá generado el fichero **geowe-ui-js-X.Y.Z.tgz**.    
   
 ## Contributors
 

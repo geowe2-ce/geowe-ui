@@ -31,7 +31,7 @@ Se obtendrán los ficheros fuente en Javascript dentro de la carpeta **jslib/geo
 ```javascript
 import { SimpleButton } from 'geowe-ui-js/api/button/SimpleButton';
 import { ToggleButton } from 'geowe-ui-js/api/button/ToggleButton';
-import 'geowe-ui-lib/style/ui-lib.css'
+import 'geowe-ui-js/style/main.css'
 
 //Integrado para usar directamente fuente de iconos (https://fontawesome.com/start)
 const zoomExtentButton = new SimpleButton("zoomExtentId", "Zoom to extent", 'fas fa-globe-americas', execute);

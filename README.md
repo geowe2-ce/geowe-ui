@@ -2,6 +2,16 @@
 
 Librería Typescript Open Source de componentes para el desarrollo de interfaz de usuario en la web.
 
+## Requerimientos
+
+Para comenzar a trabajar con el proyecto necesitará tener Node.js instalado en su entorno. Para **geowe-ui** se han utilizado las siguientes versiones: 
+
+    $ node --version
+    v10.15.3
+
+    $ npm --version
+    6.4.1
+
 ## Instalación para Javascript
 
 Para usar la librería desde un proyecto Javascript basado en NodeJS, ejecute el siguiente comando:

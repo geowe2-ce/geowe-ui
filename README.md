@@ -1,3 +1,5 @@
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
+
 # geowe-ui
 
 Librería Typescript Open Source de componentes para el desarrollo de interfaz de usuario en la web.

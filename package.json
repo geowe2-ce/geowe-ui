@@ -1,6 +1,6 @@
 {
     "name": "geowe-ui",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Librería Typescript de componentes para el desarrollo de interfaz de usuario en la web.",
     "main": "index.ts",
     "scripts": {

@@ -1,6 +1,6 @@
 {
     "name": "geowe-ui-js",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Librería Javascript de componentes para el desarrollo de interfaz de usuario en la web.",
     "keywords": ["js", "ui", "components", "lib", "bootstrap"],
     "author": {

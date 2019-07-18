@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/geowe-ui-js.svg)](https://badge.fury.io/js/geowe-ui-js)
+
 # geowe-ui
 
 Librería Typescript Open Source de componentes para el desarrollo de interfaz de usuario en la web.

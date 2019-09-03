@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/geowe-ui-js.svg)](https://badge.fury.io/js/geowe-ui-js)
+[![License](https://img.shields.io/github/license/geowe2-ce/geowe-ui.svg)](https://github.com/geowe2-ce/geowe-ui)
 
 # geowe-ui
 
